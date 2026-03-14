@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+h1 {
+    background-color: rgba(204, 204, 42, 0.19);
+    color: darkblue;
+    padding: 16px;
+    text-align:center;
+}
+
+nav a {
+    color: burlywood;
+    display: block;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(191, 114, 21);
+}
+
+p {
+    padding: 25px;
+}
