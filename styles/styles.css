@@ -1,3 +1,9 @@
+:root {
+    --border: 1px solid black;
+    --box-shadow: 0 0 30px gray;
+    --width: 135px;
+}
+
 main {
     max-width: 840px;
 }
@@ -22,28 +28,34 @@ aside {
     color: black;
 }
 aside img{
-    width: 200px;
+     width: var(--width);
     height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: var(--box-shadow);
 }
+    /* width: 200px;
+    height: auto;
+} */
 
 h1 {
     color: darkblue;
 }
 
 img {
-    width: 150px;
+    width: var(--width);
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 main img {
-    width: 150px;
+    width: var(--width);
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 10px gray;
+    box-shadow: var(--box-shadow);
 }
 
 p {
